@@ -1,0 +1,37 @@
+.projects-section h1 {
+  display: inline-block;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-card {
+  width: 35%;
+  background-color: #00000070;
+  margin: 20px 10px;
+  padding-top: 20px;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  background-color: #000000;
+}
+
+.project-card img {
+  width: 85%;
+  border: 2px solid rgb(94, 93, 93);
+}
+
+.project-card a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-card a:hover {
+  color: orange;
+}
