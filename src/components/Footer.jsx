@@ -58,7 +58,7 @@ function Footer() {
         <div className="footer-bottom">
           <div className="header-title-img footer-title-img">
             <img id="footer-logo" src={GIF_LOGO} alt="RJ Development logo" />
-            <h1 style={{ fontFamily: 'Garamond, serif' }}>RJ Development</h1>
+            <h1 className="footer-logo-title">RJ Development</h1>
           </div>
           <p className="version">MyPortfolio v2.0</p>
         </div>

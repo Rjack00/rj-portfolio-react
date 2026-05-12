@@ -14,7 +14,7 @@ function ProjectCard({ project }) {
 function Projects({ projects }) {
   return (
     <section id="projects" className="projects-section">
-      <h1 className="projects-section-title" style={{ fontFamily: "'Roboto', sans-serif" }}>
+      <h1 className="projects-section-title">
         Projects
       </h1>
       <div className="card-wrapper">

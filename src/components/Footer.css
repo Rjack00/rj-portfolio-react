@@ -66,6 +66,10 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.footer-logo-title {
+  font-family: 'Garamond', 'serif';
+}
+
 .footer-title-img {
   transform: scale(0.6);
   margin: 0 auto 0 0;
