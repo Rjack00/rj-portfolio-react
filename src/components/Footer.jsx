@@ -6,7 +6,7 @@ const socialLinks = [
   {
     id: 'linkedin',
     href: '#',
-    icon: <i className="fa fa-linkedin linked-in-logo"></i>,
+    icon: <i className="fa-brands fa-linkedin linked-in-logo"></i>,
     label: 'LinkedIn',
   },
   {
@@ -19,7 +19,7 @@ const socialLinks = [
   {
     id: 'twitter',
     href: '#',
-    icon: <i className="fa fa-twitter x-logo"></i>,
+    icon: <i className="fa-brands fa-x-twitter x-logo"></i>,
     label: 'X/Twitter',
   },
   {
