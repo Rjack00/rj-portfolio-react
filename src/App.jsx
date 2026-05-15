@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 
-const projects = [
+const projectsArr = [
   {
     id: 'project1',
     title: 'Project 1',
@@ -21,7 +21,7 @@ const projects = [
     id: 'project3',
     title: 'Project 3',
     href: 'https://codepen.io/Rjack/full/OabdKM',
-    img: 'https://media.licdn.com/dms/image/D5612AQHnFcp87h1ogQ/article-cover_image-shrink_720_1280/0/1679550781526?e=2147483647&v=beta&t=WDfMWqrPjKAN_aoKauoH4s9Wzc7y5Ga1qFVbrzLOSUo',
+    img: '/public/assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg'
   },
   {
     id: 'project4',
@@ -44,7 +44,7 @@ function App() {
       <main id="main" className="main">
         <div className="main-section-wrapper">
           <Hero />
-          <Projects projects={projects} />
+          <Projects projects={projectsArr} />
         </div>
         <div className="to-top-arrow-div" title="Top of page">
           <a id="top-of-page" href="#main">
