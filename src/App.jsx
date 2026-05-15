@@ -21,7 +21,7 @@ const projectsArr = [
     id: 'project3',
     title: 'Project 3',
     href: 'https://codepen.io/Rjack/full/OabdKM',
-    img: '/public/assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg'
+    img: '/assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg'
   },
   {
     id: 'project4',
