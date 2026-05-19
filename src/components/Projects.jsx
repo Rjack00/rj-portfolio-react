@@ -14,9 +14,9 @@ function ProjectCard({ project }) {
 function Projects({ projects }) {
   return (
     <section id="projects" className="projects-section">
-      <h1 className="projects-section-title">
-        Projects
-      </h1>
+      <h2 className="projects-section-title">
+        Selected Projects:
+      </h2>
       <div className="card-wrapper">
         {projects.map(project => (
           <ProjectCard key={project.id} project={project} />

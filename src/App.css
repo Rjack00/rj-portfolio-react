@@ -8,12 +8,13 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .main-section-wrapper {
   background-color: #00000070;
   border: 2px solid black;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 80px auto 0 auto;
   padding: 20px;
   text-align: center;
