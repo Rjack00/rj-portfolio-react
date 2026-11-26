@@ -1,15 +1,15 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Projects from './components/Projects'
+import ProjectCards from './components/ProjectCards'
 import Footer from './components/Footer'
 
 const projectsArr = [
   {
     id: 'project1',
-    title: 'Project 1',
-    href: 'https://codepen.io/Rjack/full/OabdKM',
-    img: 'https://www.techfunnel.com/wp-content/uploads/2019/08/6-Techniques-to-Secure-Funding-for-IT-Projects-1.png',
+    title: 'Exercise Tracker',
+    href: 'https://exercise-tracker-8ly3.onrender.com',
+    img: './assets/images/FormsBrowserScreenshot.png',
   },
   {
     id: 'project2',
@@ -44,7 +44,7 @@ function App() {
       <main id="main" className="main">
         <div className="main-section-wrapper">
           <Hero />
-          <Projects projects={projectsArr} />
+          <ProjectCards projects={projectsArr} />
         </div>
         <div className="to-top-arrow-div" title="Top of page">
           <a id="top-of-page" href="#main">
