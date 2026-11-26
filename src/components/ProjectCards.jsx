@@ -11,7 +11,7 @@ function ProjectCard({ project }) {
   )
 }
 
-function Projects({ projects }) {
+function ProjectCards({ projects }) {
   return (
     <section id="projects" className="projects-section">
       <h2 className="projects-section-title">
@@ -27,4 +27,4 @@ function Projects({ projects }) {
   )
 }
 
-export default Projects
+export default ProjectCards
